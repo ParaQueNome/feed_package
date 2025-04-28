@@ -99,7 +99,7 @@ Este projeto está licenciado sob a licença MIT.
 
 # 🚀 Contato
 
-Para dúvidas ou sugestões: [seu-email@example.com] ou crie uma issue!
+Para dúvidas ou sugestões: [guiaugusto455@gmail.com] ou crie uma issue!
 
 ---
 
