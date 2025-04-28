@@ -33,7 +33,7 @@ Adicione o `feed_package` ao seu `pubspec.yaml`:
 dependencies:
   feed_package:
     git:
-      url:(https://github.com/ParaQueNome/feed_package.git)
+      url:https://github.com/ParaQueNome/feed_package.git
 ```
 
 ---
