@@ -1,6 +1,3 @@
-Perfeito! 📚 Vou montar para você um modelo de README já bem estruturado e pronto para deixar seu projeto bonito no GitHub e até no pub.dev.
-
-Aqui está o modelo inicial:
 
 ---
 
