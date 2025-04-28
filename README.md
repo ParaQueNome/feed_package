@@ -113,10 +113,3 @@ Para dúvidas ou sugestões: [guiaugusto455@gmail.com] ou crie uma issue!
 | Suporte a Arquivos | ✅ |
 
 ---
-
-### ✨
-
-Se quiser, eu também posso te montar uma versão **ainda mais estilizada** com badges (`pub.dev`, `build passing`, etc.) se você quiser fazer algo ainda mais profissional!
-
-Quer que eu já te mande esse modelo turbinado também? 🚀🎯  
-(Só me falar!)
