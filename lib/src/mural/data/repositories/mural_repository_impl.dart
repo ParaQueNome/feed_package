@@ -1,4 +1,4 @@
-import 'package:feed_package/feed_package.dart';
+import 'package:feed_package/mural-feed_package.dart';
 import 'package:feed_package/src/mural/domain/repositories/mural_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/mural_model.dart';
