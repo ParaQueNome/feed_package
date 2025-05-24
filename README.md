@@ -1,17 +1,15 @@
+# 📦 mural/feed_package
 
----
-
-# 📦 feed_package
-
-Pacote para gerenciar feeds de posts com suporte a upload de arquivos e widgets customizados para comentários funcionais.
+Uma atualização de pacote para gerenciar feeds de posts com suporte a upload de arquivos, widgets customizados para comentários funcionais **e mural de avisos interativos**, com criação e exclusão de cards estilo sticker.
 
 ## ✨ Sobre
 
-O `feed_package` é uma biblioteca Flutter que fornece:
+O `mural/feed_package` é uma biblioteca Flutter que fornece:
 
 - Funcionalidades para **inserir posts** em formato de feed.
 - **Widgets customizados** prontos para exibir e interagir com comentários.
 - Serviço de **upload de arquivos** associado aos posts.
+- **Mural de avisos** com suporte a **mensagens, dicas e recados** em formato de **cards interativos** (criar e apagar tipo sticky note).
 
 Tudo de forma modular, limpa e pronta para integrar diretamente no seu app!
 
@@ -22,6 +20,10 @@ Tudo de forma modular, limpa e pronta para integrar diretamente no seu app!
 - **Insert Post**: Insere novos posts com a opção de incluir arquivos (como imagens ou documentos).
 - **Upload de Arquivos**: Arquivos são enviados para o bucket de armazenamento e associados automaticamente ao post.
 - **Feed Widget Customizado**: Widgets prontos para exibir feed com comentários funcionais (enviar, visualizar e interagir).
+- **Mural Interativo**:
+  - Adicionar **cards tipo sticker** com mensagens rápidas.
+  - Remover cards do mural com facilidade.
+  - Personalização de conteúdo para recados, dicas e anúncios.
 
 ---
 
@@ -33,7 +35,8 @@ Adicione o `feed_package` ao seu `pubspec.yaml`:
 dependencies:
   feed_package:
     git:
-      url:https://github.com/ParaQueNome/feed_package.git
+      url: https://github.com/ParaQueNome/feed_package.git
+
 ```
 
 ---
@@ -96,17 +99,16 @@ Este projeto está licenciado sob a licença MIT.
 
 # 🚀 Contato
 
-Para dúvidas ou sugestões: [guiaugusto455@gmail.com] ou crie uma issue!
+Para dúvidas ou sugestões: [guiaugusto455@gmail.com] e [pedrobbp22@gmail.com] ou crie uma issue!
 
 ---
 
 ## ⚡ Resumo rápido
 
-| Item | Status |
-|:--|:--|
-| Inserir Post com Upload | ✅ |
-| Feed com Comentários | ✅ |
-| Widgets Customizados | ✅ |
-| Suporte a Arquivos | ✅ |
-
----
+| Item                        | Status |
+| --------------------------- | ------ |
+| Inserir Post com Upload     | ✅      |
+| Feed com Comentários        | ✅      |
+| Widgets Customizados        | ✅      |
+| Suporte a Arquivos          | ✅      |
+| Mural com Cards Interativos | ✅      |
