@@ -2,12 +2,13 @@ import 'package:feed_package/src/core/widgets/ima_error_widget.dart';
 import 'package:feed_package/src/core/widgets/loading_widget.dart';
 import 'package:feed_package/src/core/widgets/new_comment_widget.dart';
 import 'package:feed_package/src/feed/data/models/feed_model/feed_model.dart';
+import 'package:feed_package/src/feed/data/models/feed_model/feed_model_interface.dart';
 import 'package:feed_package/src/feed/presentation/providers/comment_notifier_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class CommentSectionWidget extends ConsumerWidget {
-  final FeedModel feed;
+  final FeedModelInterface feed;
 
   const CommentSectionWidget({required this.feed, super.key});
 

@@ -1,3 +1,4 @@
+import 'package:feed_package/src/feed/data/models/feed_model/feed_model_interface.dart';
 import 'package:feed_package/src/feed/data/models/like_model/like_post_model.dart';
 import 'package:feed_package/src/feed/presentation/feed_post_view.dart';
 import 'package:feed_package/src/feed/presentation/providers/feed_provider.dart';
@@ -12,7 +13,7 @@ class FeedCardWidget extends ConsumerWidget {
     required this.feed,
   });
 
-  final FeedModel feed;
+  final FeedModelInterface feed;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

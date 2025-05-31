@@ -1,11 +1,12 @@
 import 'package:feed_package/src/feed/data/models/comment_model/post_comment_model.dart';
 import 'package:feed_package/src/feed/data/models/feed_model/feed_model.dart';
+import 'package:feed_package/src/feed/data/models/feed_model/feed_model_interface.dart';
 import 'package:feed_package/src/feed/presentation/providers/comment_notifier_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class NewCommentWidget extends ConsumerStatefulWidget {
-  final FeedModel feed;
+  final FeedModelInterface feed;
 
   const NewCommentWidget({super.key, required this.feed});
 

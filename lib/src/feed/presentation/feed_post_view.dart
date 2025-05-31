@@ -1,5 +1,6 @@
 import 'package:feed_package/src/core/widgets/comment_section_widget.dart';
 import 'package:feed_package/src/feed/data/models/feed_model/feed_model.dart';
+import 'package:feed_package/src/feed/data/models/feed_model/feed_model_interface.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
@@ -11,7 +12,7 @@ class FeedPostViewPage extends ConsumerWidget {
     required this.scrollToComments,
   });
 
-  final FeedModel post;
+  final FeedModelInterface post;
   final bool scrollToComments;
 
   @override
