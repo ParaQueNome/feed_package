@@ -1,4 +1,4 @@
-# 📦 mural/feed_package
+# 📦 mural/pipa_core
 
 Uma atualização de pacote para gerenciar feeds de posts com suporte a upload de arquivos, widgets customizados para comentários funcionais **e mural de avisos interativos**, com criação e exclusão de cards estilo sticker.
 
